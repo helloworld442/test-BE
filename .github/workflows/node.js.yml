@@ -28,7 +28,7 @@ jobs:
       - run: npm ci
 
       - name: CREATE .env file
-        working-directory: /
+        working-directory: ./
         run: |
           pwd
           touch .env
